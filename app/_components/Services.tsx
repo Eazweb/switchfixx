@@ -1,37 +1,42 @@
 import React from "react";
 import Stats from "./Stats";
 
-
 const services = [
   {
     image: "services/1.jpg",
-    heading: "Service One",
-    description: "Description of Service One.",
+    heading: "Electrical Installation",
+    description:
+      "Professional wiring, lighting, and electrical system installations for residential and commercial properties.",
   },
   {
     image: "services/2.jpg",
-    heading: "Service Two",
-    description: "Description of Service Two.",
+    heading: "Emergency Electrical Repairs",
+    description:
+      "24/7 response for power outages, faulty circuits, and urgent electrical repairs to keep your property safe.",
   },
   {
     image: "services/3.webp",
-    heading: "Service Three",
-    description: "Description of Service Three.",
+    heading: "Lighting Design & Installation",
+    description:
+      "Custom lighting solutions to enhance ambiance and safety in both indoor and outdoor spaces.",
   },
   {
     image: "/services/4.jpg",
-    heading: "Service Four",
-    description: "Description of Service Four.",
+    heading: "Smart Home Automation",
+    description:
+      "Integrate smart home technology for seamless control over lighting, security, and energy use.",
   },
   {
     image: "/services/5.jpg",
-    heading: "Service Five",
-    description: "Description of Service Five.",
+    heading: "Electrical Panel Upgrades",
+    description:
+      "Upgrade your electrical panel to handle modern energy demands and ensure home safety.",
   },
   {
     image: "/services/6.jpg",
-    heading: "Service Six",
-    description: "Description of Service Six.",
+    heading: "Energy Efficiency Solutions",
+    description:
+      "Implement energy-saving technologies to reduce costs and enhance sustainability.",
   },
 ];
 
@@ -64,7 +69,7 @@ const Services = () => {
           ))}
         </div>
       </div>
-      <Stats/>
+      <Stats />
     </div>
   );
 };
