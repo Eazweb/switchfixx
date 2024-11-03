@@ -51,20 +51,27 @@ const Services = () => {
           No Shocking Prices, Just Shocking Quality
         </h1>
       </div>
-      <div className="overflow-x-auto py-10 my-10">
-        <div className="flex flex-row md:flex-wrap justify-start md:justify-around gap-6 px-4">
+      <div className="overflow-x-auto py-10 my-5 md:my-10">
+        <div className="flex flex-row md:flex-wrap justify-start md:justify-around gap-3 md:gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="flex-shrink-0 min-w-[200px] p-4 bg-white rounded-lg shadow-lg md:w-[45%] xl:w-[30%]"
+              className="flex-shrink-0 w-[250px] p-2 bg-white rounded-xl shadow-lg hover:shadow-2xl transform  transition-all duration-300 ease-in-out md:w-[45%] xl:w-[30%]"
             >
-              <img
-                src={service.image}
-                alt={service.heading}
-                className="w-full h-40 object-cover rounded-md"
-              />
-              <h2 className="mt-4 text-xl font-bold">{service.heading}</h2>
-              <p className="mt-2 text-gray-600">{service.description}</p>
+              <div className="relative">
+                <img
+                  src={service.image}
+                  alt={service.heading}
+                  className="w-full h-48 object-cover rounded-lg"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-30 rounded-lg"></div>
+              </div>
+              <h2 className="mt-4 text-2xl font-bold text-gray-800">
+                {service.heading}
+              </h2>
+              <p className="mt-2 text-gray-600 text-sm leading-relaxed hidden md:flex">
+                {service.description}
+              </p>
             </div>
           ))}
         </div>

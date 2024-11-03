@@ -31,7 +31,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="hidden md:flex justify-center items-center font-semibold text-md gap-8 mt-8 py-8  border-t-[2px] border-zinc-400 ">
+      <div className="hidden md:flex justify-center items-center font-semibold text-md gap-8 mt-16 py-8  border-t-[2px] border-zinc-400 ">
         <div className="flex gap-2 items-center">
           <CircleCheckBigIcon />
           <p className="text-zinc-600">Professional Service</p>
