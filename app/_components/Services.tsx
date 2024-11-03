@@ -1,5 +1,7 @@
+"use client"
 import React from "react";
 import Stats from "./Stats";
+import { useFadeIn } from "./Fadein";
 
 const services = [
   {
@@ -41,8 +43,11 @@ const services = [
 ];
 
 const Services = () => {
+
+  const fadeInRef = useFadeIn();
+
   return (
-    <div id="service" className="w-full my-10 bg-[#eceeed] py-10 px-5">
+    <div  id="service" className="w-full my-10 bg-[#eceeed] py-10 px-5">
       <div className="flex flex-col space-y-6 mx-auto justify-center items-center max-w-[700px]">
         <h1 className="text-md px-4 py-1 my-3 border-[1px] border-gray-600 text-gray-800 font-semibold rounded-full">
           What We Offer
@@ -56,9 +61,9 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-[250px] p-2 bg-white rounded-xl shadow-lg hover:shadow-2xl transform  transition-all duration-300 ease-in-out md:w-[45%] xl:w-[30%]"
+              className="flex-shrink-0 w-[250px] p-2 md:p-4 bg-white rounded-xl shadow-lg hover:shadow-2xl transform  transition-all duration-300 ease-in-out md:w-[45%] xl:w-[30%]"
             >
-              <div className="relative">
+              <div  className="relative">
                 <img
                   src={service.image}
                   alt={service.heading}
