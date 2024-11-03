@@ -56,7 +56,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="flex-shrink-0 min-w-[250px] p-4 bg-white rounded-lg shadow-lg md:w-[45%] xl:w-[30%]"
+              className="flex-shrink-0 min-w-[200px] p-4 bg-white rounded-lg shadow-lg md:w-[45%] xl:w-[30%]"
             >
               <img
                 src={service.image}

@@ -20,7 +20,7 @@ const Header = () => {
       <a href="tel:64211041646">
         <button className="bg-[#f1ca4b] px-5 py-3 rounded-full flex gap-4">
           <PhoneCallIcon />
-          <h1 className="text-md font-semibold text-gray-800">Give a Call</h1>
+          <h1 className="text-md font-semibold text-gray-800">Get a Qoute</h1>
         </button>
       </a>
     </div>

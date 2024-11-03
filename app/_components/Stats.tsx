@@ -1,6 +1,6 @@
 const stats = [
-    { id: 1, name: 'of Hands-on Experience', value: '10+ Years' },
-    { id: 2, name: 'Helped solve their problem', value: '80+ Clients' },
+    { id: 1, name: 'of Hands-on Experience', value: '5+ Years' },
+    { id: 2, name: 'Helped solve their problem', value: '150+ Clients' },
     { id: 3, name: 'Customer satisfaction rate', value: '100%' },
   ]
   
