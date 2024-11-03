@@ -42,6 +42,14 @@ const Footer: React.FC = () => {
                     Instagram
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61552041520430&mibextid=LQQJ4d"
+                    className="hover:underline"
+                  >
+                    Facebook
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
