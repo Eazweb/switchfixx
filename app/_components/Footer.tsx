@@ -30,14 +30,24 @@ const Footer: React.FC = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm  font-semibold text-gray-900 uppercase dark:text-white">
                 Follow us
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400">
+              <ul className="text-gray-600 space-y-3 dark:text-gray-400">
+                <li>
+                  <a
+                    href="http://wa.me/64211041646"
+                    className="hover:underline"
+                    target="_blank"
+                  >
+                    Whatsapp
+                  </a>
+                </li>
                 <li>
                   <a
                     href="https://www.instagram.com/switchfixx_electricals/profilecard/?igsh=MXIwZTUwaXJ1Z2tqbg=="
                     className="hover:underline"
+                    target="_blank"
                   >
                     Instagram
                   </a>
@@ -46,6 +56,7 @@ const Footer: React.FC = () => {
                   <a
                     href="https://www.facebook.com/profile.php?id=61552041520430&mibextid=LQQJ4d"
                     className="hover:underline"
+                    target="_blank"
                   >
                     Facebook
                   </a>

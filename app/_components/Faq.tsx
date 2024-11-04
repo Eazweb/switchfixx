@@ -72,7 +72,7 @@ const FAQSection: React.FC = () => {
                   >
                     <button
                       onClick={() => toggleFAQ(index)}
-                      className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600"
+                      className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-600 w-full transition duration-500 hover:text-gray-600"
                       aria-expanded={openIndex === index}
                     >
                       <h5>{faq.question}</h5>
